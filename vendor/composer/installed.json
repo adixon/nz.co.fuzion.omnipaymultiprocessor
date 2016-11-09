@@ -3191,21 +3191,43 @@
         "homepage": "https://symfony.com"
     },
     {
+<<<<<<< HEAD
         "name": "omnipay/authorizenet",
+=======
+        "name": "zburke/omnipay-bluepay",
+>>>>>>> Updated composer files
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
+<<<<<<< HEAD
             "url": "https://github.com/eileenmcnaughton/omnipay-authorizenet.git",
             "reference": "a955beac72955c8077229728d64069f0061315d1"
         },
         "require": {
             "omnipay/common": "~2.2"
+=======
+            "url": "https://github.com/adixon/omnipay-bluepay.git",
+            "reference": "d7802555e735b81d8d9a7ff8dd56cc4d35da582e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/adixon/omnipay-bluepay/zipball/d7802555e735b81d8d9a7ff8dd56cc4d35da582e",
+            "reference": "d7802555e735b81d8d9a7ff8dd56cc4d35da582e",
+            "shasum": ""
+        },
+        "require": {
+            "omnipay/common": "~2.0"
+>>>>>>> Updated composer files
         },
         "require-dev": {
             "omnipay/tests": "~2.0"
         },
+<<<<<<< HEAD
         "time": "2016-12-08 03:09:41",
+=======
+        "time": "2016-09-27 14:53:55",
+>>>>>>> Updated composer files
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3215,7 +3237,11 @@
         "installation-source": "source",
         "autoload": {
             "psr-4": {
+<<<<<<< HEAD
                 "Omnipay\\AuthorizeNet\\": "src/"
+=======
+                "Omnipay\\BluePay\\": "src/"
+>>>>>>> Updated composer files
             }
         },
         "license": [
@@ -3223,6 +3249,7 @@
         ],
         "authors": [
             {
+<<<<<<< HEAD
                 "name": "Adrian Macneil",
                 "email": "adrian@adrianmacneil.com"
             },
@@ -3237,11 +3264,32 @@
             "authorize",
             "authorize net",
             "authorize.net",
+=======
+                "name": "Zak Burke",
+                "email": "zak.burke@gmail.com"
+            },
+            {
+                "name": "Omnipay Contributors",
+                "homepage": "https://github.com/zburke/omnipay-bluepay/contributors"
+            }
+        ],
+        "description": "BluePay gateway for the Omnipay payment processing library",
+        "homepage": "https://github.com/zburke/omnipay-bluepay",
+        "keywords": [
+            "bluepay",
+>>>>>>> Updated composer files
             "gateway",
             "merchant",
             "omnipay",
             "pay",
             "payment"
+<<<<<<< HEAD
         ]
+=======
+        ],
+        "support": {
+            "source": "https://github.com/zburke/omnipay-bluepay/tree/master"
+        }
+>>>>>>> Updated composer files
     }
 ]
