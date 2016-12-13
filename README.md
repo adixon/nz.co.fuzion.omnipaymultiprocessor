@@ -1,3 +1,7 @@
+This is a copy of Eileen's omnipay multiprocessor for CiviCRM, used for testing/implementing bluepay and beanstream.
+
+=====
+
 This extension provides a wrapper extension for payment processors.
 
 Note that the IPN/ Silent post url that should be configured within the payment processor is
