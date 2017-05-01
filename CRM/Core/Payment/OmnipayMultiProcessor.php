@@ -188,8 +188,10 @@ class CRM_Core_Payment_OmnipayMultiProcessor extends CRM_Core_Payment_PaymentExt
         $response->redirect();
       }
       else {
+        $message = $response->getMessage();
+        $this->gateway = NULL;
         //@todo - is $response->getCode supported by some / many processors?
-        return $this->handleError('alert', 'failed processor transaction ' . $this->_paymentProcessor['payment_processor_type'], (array) $response, 9001, $response->getMessage());
+        return $this->handleError('alert', 'failed processor transaction ' . $this->_paymentProcessor['payment_processor_type'], (array) $response, 9001, $message);
       }
     }
     catch (\Exception $e) {
